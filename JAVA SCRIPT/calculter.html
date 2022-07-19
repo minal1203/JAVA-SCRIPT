@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculter</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+
+            .block{
+                width: 60%;
+                height: 500px;
+                background-color: #f2f2f2;
+                border-radius: 8px;
+            }
+            .block-number{
+                width: 50%;
+                height: 50px;
+                box-sizing: border-box;
+                border-radius: 10px;
+                background-color: #f1f1f1;
+                margin-left: 150px;
+                box-shadow: inset 2px 2px 2px 0px gray;
+            }
+            .heading{
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 250px;
+                 
+                
+            }
+         .button {
+                 margin: 15px 0 0 5px;
+                  width: 130px;
+                    height: 42px;
+                  border: none;
+                  outline: none;
+                    font-size: 18px;
+                 font-weight: bold;
+                  cursor: pointer;
+                    border-radius: 8px;
+                 background-color: black;
+                 color: #f2f2f2;
+         }
+            
+        </style>
+    </head>
+    <body>
+        <div class="block">
+            <h1 class="heading" >calculator</h1>
+            <br>
+            <br>
+            <input type="text" id="display" placeholder="Enter Number 1" value="10" class="block-number"><br> 
+            <br>
+            <input type="text" id="display" placeholder="Enter Number 2" value=" "  class="block-number">
+            <br><br>
+            <input type="text" id="result" placeholder="Result;" value="result"  class="block-number"><br>
+            <br>
+            <input class="button mathbutton" type="button" value="Addition" 
+            onclick="calculator.display.value +='+'">
+
+            <input class="button mathbutton" type="button" value="subtraction"
+            onclick="calculator.display.value +='-'">
+
+            <input class="button mathbutton" type="button" value="Multiplication" 
+            onclick="calculator.display.value +='*'">
+
+            <input class="button mathbutton" type="button" value="Division" 
+            onclick="calculator.result.value +='*'">
+
+            <input class="button mathbutton" type="button" value="clear" 
+            onclick="calculator.result.value +='*'">
+
+            <!-- eval() evaluates arithmetic expressions in result box -->
+            <input class="button mathbutton" type="button" value="/" 
+            onclick="calculator.result.value +='/'">
+        </div>
+        <style src="calculter.js"></style>
+    </body>
+</html>
