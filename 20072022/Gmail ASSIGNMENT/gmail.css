@@ -111,3 +111,31 @@
     text-align: center;
     margin-left: 180px;
 }
+.top-bottom{
+    display: flex;
+}
+.left-bottom{
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+.right-bottom{
+    width: 50%;
+    float: right;
+    margin-left: 350px;
+}
+.links{
+    
+    display: inline-flex;
+    margin:0px 0px 0px 20px ;
+    padding: 5px;
+    color:gray;
+    font-size: 14px;
+    
+}
+.save{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: dodgerblue;
+}

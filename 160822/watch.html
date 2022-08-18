@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Interval</title>
+        <style>
+            #watchtimer{
+                width: 300px;
+                background-color: black;
+                color: white;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="watchtimer" style="font-size:50px;">
+            <span id="hours">00</span>
+            <span>:</span>
+            <span id="minute">00</span>
+            <span>:</span>
+            <span id="second">00</span>
+            <span>:</span>
+            <span id="milisecond">00</span>
+        </div>
+        <button onclick="stopwatch()">Stop</button>
+        <script>
+            var minute = 0;
+            var second = 0;
+            var hours =  0;
+            var milisecond= 0;
+            var watch = setInterval(function(){
+                milisecond++;
+                if(milisecond == 61){
+                    milisecond=0;
+                    second++;
+                }
+
+                if(second == 61){
+                    second=0;
+                    minute++;
+                }
+                if(minute==61){
+                    minute=0
+                    hours++;
+                }
+                document.getElementById('hours').innerHTML=hours;
+                document.getElementById('minute').innerHTML=minute;
+        
+                document.getElementById('second').innerHTML=second;
+                document.getElementById('milisecond').innerHTML=milisecond;
+            },10)
+            function stopwatch(){
+               clearInterval(watch);
+            }
+        </script>
+    </body>
+</html>

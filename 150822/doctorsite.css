@@ -1,0 +1,88 @@
+body{
+     width: 90%;
+     margin: 0px auto;
+    background-color: #f4f5f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    
+    height: 50px;
+    background-color: #015172;
+    display: flex;
+}
+.left-header{
+    float: left;
+    display: flex;
+}
+.lhlist{
+    display: inline;
+    list-style: none;
+    padding: 10px 10px 10px 7px;
+    color: #f4f5f9;
+}
+.lrlist{
+   float: right;
+    color: #f4f5f9;
+    padding: 19px 10px 10px 7px;
+    
+}
+.left-left-header{
+    float: left;
+}
+.left-right-header{
+    float: right;
+    margin-left: 200px;
+
+   
+
+}
+.right-header{
+    float: right;
+    display: flex;
+}
+.right-left-header{
+    float: left;
+    border-bottom: 1px solid rgb(212, 207, 207);
+    
+    
+}
+.go{
+    width: 250px;
+    height: 30px;
+    color: grey;
+    margin-left: 18px;
+    font-size: 17px;
+    font-style: italic;
+    padding: 35px 10px 10px 7px;
+    
+}
+.right-right-header{
+
+    float: right;
+    width: 169px;
+    background-color:#006792 ;
+    color: #f4f5f9;
+    text-align: center;
+    padding: 19px 0px 0px 0px;
+    overflow: hidden;
+}
+.logoclass{
+    width: 200px;
+    height: 60px;
+   
+    padding: 10px 0px 7px 30px;
+   
+}
+.logo{
+    border-bottom: 1px solid rgb(212, 207, 207);
+}
+.ndl-list{
+    list-style: none;
+    display: inline;
+    padding: 10px 10px 10px 20px;
+    color: #006792;
+    font-weight: bold;
+}
+.block1-list-ndl{
+    text-align: center;
+}

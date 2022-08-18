@@ -1,8 +1,11 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
     <head>
         <title>gmail Log in</title>
         <link rel="stylesheet" a href="gmail.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
        <div class="top-block">
@@ -13,17 +16,19 @@
                    <h4 class="sub-heading2"> to continue to Gmail</h4>
                    <div class="column-name">
                      <div class="name1">
-                        <input type="text" placeholder="First name" class="name1">
+                        <input id="firstname"   type="text"  placeholder="First name" class="name1">
+                        <div class="error" id="firsterror"></div>
                       </div>
                       <br>
                       <div class="name2">
-                         <input type="text" placeholder="Last name"class="name2">
+                         <input id="lastname" type="text" placeholder="Last name"class="name2">
+                         <div class="error" id="seconderror"></div>
                       </div>
                    </div>
                    <br>
                    <br>
                   <div class="column-name2">
-                      <input type="text" placeholder="Username" class="column-name2">
+                      <input id="email" placeholder="Username" class="column-name2">
                       <p class="column-name2-line">
                            You can use letters, numbers & period
                       </p>
@@ -32,7 +37,7 @@
                    <br>
                    <div class="column-name">
                      <div class="name1">
-                         <input type="text" placeholder="First name" class="name1">
+                         <input id="password"    placeholder="Password" class="name1">
                          <p class="column-name2-line">
                             Use 8 or more character with a mix of letters numbers &
                             symbols
@@ -40,7 +45,7 @@
                       </div>
                      
                      <div class="name2">
-                        <input type="text" placeholder="Last name"class="name2">
+                        <input id="confirm"    placeholder="confirm"class="name2">
                      </div>
                     
                     </div>
@@ -51,12 +56,12 @@
                           Sign in instead
                         </div>
                         <div class="last-section-right">
-                            <input type=" submit" placeholder="Next" class="last-section-right">
+                          <button type="button" onclick="submit()"  class="save"> Next</button>
                         </div>
 
                     </div>
                </div>
-
+               
 
 
                <div class="right-img">
@@ -67,7 +72,18 @@
                    </div>
                </div>
            </div>
-       </div>
+           <div class="top-bottom">
+            <div class="left-bottom">
+                <select name="language" id="">
+                    <option value="English(United Kingdom)">English(United Kingdom)</option>
+                </select>
+            </div>
+            <div class="right-bottom">
+                <div class="links">Help</div>
+                <div class="links">Privacy</div>
+                <div class="links">Terms</div>
+            </div>
+        </div>
      <script src="./gmail.js"></script>
     </body>
 </html>
