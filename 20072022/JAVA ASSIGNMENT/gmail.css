@@ -1,0 +1,113 @@
+.top-block{
+    max-width: 900px;
+    border: 2px solid grey;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.inner-block{
+
+    
+    margin-left: 50px;
+    display: flex;
+    max-width: 800px;
+    height: 600px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 1px 0px grey;
+    border-radius: 5px;
+    
+}
+.left-img{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.right-img{
+
+    width: 400px;
+    float: right;
+    margin-left: 160px;
+    margin-top: 100px;
+    
+}
+.right-para{
+    color: rgb(161, 156, 156);
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 30px 5px;
+    margin-right: 70px;
+}
+.sub-heading{
+    color:rgb(80, 76, 76);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sub-heading2{
+    color:rgb(130, 125, 125);
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.column-name{
+    display: flex;
+    width: 400px;
+    padding: 10px 0px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.name1{
+    height: 25px;
+    width: 170px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.name2{
+    width: 175px;
+    height: 25px;
+    margin-left: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.column-name2{
+    width: 365px;
+    height: 25px;
+    margin-top: -10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.column-name2-line{
+    width: 350px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:5px;
+}
+.right-pic{
+ margin-top: 60px;
+}
+.last-section{
+    width: 400px;
+    display: flex;
+    margin-top: 50px;
+}
+.last-section-left{
+    float: left;
+    color: lightseagreen;
+}
+.last-section-right{
+    float: right;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    background-color: rgb(7, 91, 111);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 180px;
+}
